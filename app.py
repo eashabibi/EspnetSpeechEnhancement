@@ -47,7 +47,7 @@ def main():
             st.text("Enhanced audio")
             st.audio(enhanced, format='audio/wav', start_time=0, sample_rate=sr)
         else:
-            st.warning("Invalid file type. Please upload a WAV file.")
-
+            st.warning("Invalid file type. Please upload a WAV file.") 
+ 
 if _name_ == '_main_':
     main()
